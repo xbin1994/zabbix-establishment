@@ -38,8 +38,8 @@ httpd配置也需要修改ServerName字段为localhost:80
 
 3. 修改/usr/share/zabbix/include文件夹下的define.inc.php文件,将‘ZBX_GRAPH_FONT_NAME’字段对应的值改为msyh, 然后重启zabbix即可。  
  
-       ![font-config](https://raw.githubusercontent.com/xbin1994/zabbix-establishment/master/images/font-config.png)  
+      ![font-config](https://raw.githubusercontent.com/xbin1994/zabbix-establishment/master/images/font-config.png)  
 
 4. 在浏览器中输入zabbix服务器的ip/zabbix即可进入zabbix仪表板!  
 
-       ![zabbix-dashboard](https://raw.githubusercontent.com/xbin1994/zabbix-establishment/master/images/dashborad.png)
+      ![zabbix-dashboard](https://raw.githubusercontent.com/xbin1994/zabbix-establishment/master/images/dashborad.png)
